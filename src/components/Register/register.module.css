@@ -1,0 +1,75 @@
+.maincontainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #f9484a;
+  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+}
+
+.formcontainer {
+  height: 300px;
+  width: 80%;
+  padding: 3%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  border-radius: 8px;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+  min-height: 79px;
+}
+
+.inputlabel {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputbox {
+  background-color: transparent;
+  font-size: 18px;
+  outline: none;
+  width: 100%;
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 5px 8px;
+}
+
+.button {
+  width: 25%;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 6px;
+  background-color: blue;
+  padding: 8px 15px;
+}
+
+.button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+  font-size: 18px;
+}
+
+.emptyInputField {
+  border: red;
+  background-color: rgba(255, 0, 0, 0.421);
+}
+
+.errorMessage {
+  color: red;
+}
+
+.disabledButton {
+  background-color: grey;
+}
+
+.disabledButton:hover {
+  background-color: grey;
+}
